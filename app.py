@@ -3,8 +3,8 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route('/data')
-def get_data():
+@app.route('/')
+def index():
     # Logic to generate or retrieve your data
     data = {
         "version": "1.0",
