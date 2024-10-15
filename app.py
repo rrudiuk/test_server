@@ -8,8 +8,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "version": "1.0",
-        "message": "Hello from the API!"
+        "Version_int": 3.8,
+        "Version": "3.8"
     })
 
 
