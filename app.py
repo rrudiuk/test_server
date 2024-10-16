@@ -8,8 +8,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "Version_int": 10,
-        "Version": "3.8"
+        "Version_int": 9999,
+        "Version": "9999"
     })
 
 
